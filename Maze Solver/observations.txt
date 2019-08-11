@@ -1,0 +1,13 @@
+TASK 3 :
+==========
+
+path.png :
+-----------
+The obtained path need not be the shortest possible path as the steps taken are stochastic and deterministic. The actions actually taken at each position need not be the optimal action determined by the policy obtained by value iteration.
+The length of the path is much higher than the optimal path.
+
+plot.png :
+-----------
+As p increases, the actions taken at each node are closer to the optimal actions and hence the number of steps required to reach the end state decreases as p increases. In case of p = 1, it is equivalent to deterministic maze and in case of p = 0, every action taken at a node is uniformly random and hence number of steps needed to reach end node is highest. 
+
+For p = 0 the number of steps is around 1750 which indicates there are may cycles in the path and most of the nodes are visited before reaching the end node. 
